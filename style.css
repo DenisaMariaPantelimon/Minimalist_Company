@@ -1,0 +1,322 @@
+/* Exemplu: general reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ------------------------------------------------------*/
+/* heading */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #515151;
+}
+
+h1 {
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 12px;
+  margin: 3px 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #e00022;
+}
+
+/* ------------------------------------------------ */
+
+#outer-container {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#main-container {
+  display: flex;
+  width: 960px;
+  margin: auto;
+  float: left;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 23px;
+}
+
+#container-left {
+  width: 70px;
+  float: left;
+  background-color: #e00022;
+}
+
+#container-right {
+  width: 890px;
+  height: 1000px;
+  float: left;
+}
+
+#container-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#header-item {
+  padding-top: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #cccccc;
+  width: 200px;
+}
+
+#header-item img {
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+
+#container-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#menu-item {
+  width: 137px;
+  height: 47px;
+  border-top: 1px solid grey;
+  border-left: 0.5px solid grey;
+  border-right: 0.5px solid grey;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#menu-item:nth-child(1){
+  border-left: 0;
+}
+
+#container-welcome {
+  width: 810px;
+  height: 145px;
+  padding-top: 35px;
+  padding-left: 40px;
+}
+
+#photo-container {
+  display: flex;
+  width: 890px;
+  padding-left: 30px;
+  justify-content: space-around;
+}
+
+.photo-item {
+  display: flex;
+}
+
+.content-container {
+  display: flex;
+  width: 810px;
+  height: 370px;
+  flex-wrap: wrap;
+  padding-left: 45px;
+}
+
+.content-container h5{
+  text-align: justify;
+}
+
+#left-content-item {
+  flex: 2;
+}
+
+#right-content-item {
+  flex: 1;
+  padding-left: 200px;
+}
+
+.right-minimal {
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#new-technology-item img {
+  float: left;
+  width: 45px;
+  height: 70px;
+}
+
+#hours-support-item img {
+  float: left;
+  width: 45px;
+  height: 70px;
+}
+
+#bottom-content-item {
+  flex: 1 1 auto;
+}
+
+.footer-container {
+  padding-left: 40px;
+}
+
+.footer-container p{
+  font-size: 13px;
+  color: #cccccc;
+}
+
